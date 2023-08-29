@@ -9,7 +9,7 @@
     "plugin:react-hooks/recommended",
     "plugin:jest-dom/recommended"
   ],
-  "ignorePatterns": ["dist", ".eslintrc", "!.jest"],
+  "ignorePatterns": ["dist", ".eslintrc", "!.jest", "!.storybook"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["react-refresh", "@typescript-eslint", "jest-dom"],
   "rules": {
