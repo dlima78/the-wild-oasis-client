@@ -62,8 +62,8 @@ ${({ theme }) => css`
 
   body {
     font-family: 'Poppins', sans-serif;
-    color: ${theme.colors.colorGreen700};
-    background-color: ${theme.colors.colorRed800};
+    color: ${theme.colors.colorGrey700};
+    background-color: ${theme.colors.colorGrey50};
     transition:
       color 0.3s,
       background-color 0.3s;
@@ -81,7 +81,7 @@ ${({ theme }) => css`
   button:focus,
   textarea:focus,
   select:focus {
-    outline: 2px solid var(--color-brand-600);
+    outline: 2px solid ${theme.colors.colorBrand500};
     outline-offset: -1px;
   }
 `}

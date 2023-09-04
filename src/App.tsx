@@ -1,7 +1,7 @@
 import GlobalStyles from '@/styles/global'
 import { ThemeProvider } from 'styled-components'
 import * as S from './app.styled'
-import ButtonStyled from './components/Button'
+import ButtonStyled from './components/Teste'
 import theme from './styles/theme'
 
 const App = () => (
