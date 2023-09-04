@@ -3,7 +3,7 @@ import type { Config } from 'jest'
 const config: Config = {
   clearMocks: true,
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)'],
+  collectCoverageFrom: ['src/**/*.ts(x)', '!src/**/*.stories.ts(x)'],
   coverageProvider: 'v8',
   moduleNameMapper: {
     '@/tests/(.*)': '<rootDir>/tests/$1',
