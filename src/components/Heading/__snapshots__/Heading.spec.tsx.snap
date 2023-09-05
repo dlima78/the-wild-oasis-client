@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading> should render h1 heading by default 1`] = `
+.c0 {
+  line-height: 1.4rem;
+}
+
+<h1
+  class="c0"
+>
+  The Wild Oasis
+</h1>
+`;
