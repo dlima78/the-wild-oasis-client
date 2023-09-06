@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row> should render the horizontal Row 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+<div
+  class="c0"
+  data-testid="row"
+  type="horizontal"
+>
+  <button>
+    botão 1
+  </button>
+  <button>
+    botão 2
+  </button>
+</div>
+`;
