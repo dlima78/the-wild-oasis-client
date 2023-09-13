@@ -17,8 +17,8 @@ export default meta
 type Story = StoryObj<typeof Row>
 
 export const Default: Story = {
-  render: () => (
-    <Row>
+  render: ({ ...args }) => (
+    <Row {...args}>
       <button>Botão 1</button>
       <button>Botão 2</button>
     </Row>
